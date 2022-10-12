@@ -41,15 +41,28 @@ public class Main {
             weight[0] = 1;
             weight[1] = 2;
             weight[2] = 3;
-            float[] fl = new float[]{1.57f, 7.654f, 9.986f};
-            int[] a = new int[]{1, 2, 3, 4, 5, 6};
-            System.out.printf("%d,%d,%d\n", weight[2],weight[1],weight[0]);
-            System.out.printf("%f,%f,%f\n", fl[2],fl[1],fl[0]);
-            System.out.printf("%d,%d,%d,%d,%d,%d\n", a[5],a[4],a[3],a[2],a[1],a[0]);
+            //float[] fl = new float[]{1.57f, 7.654f, 9.986f};
+            //int[] a = new int[]{1, 2, 3, 4, 5, 6};
+            //System.out.printf("%d,%d,%d\n", weight[2],weight[1],weight[0]);
+            //System.out.printf("%f,%f,%f\n", fl[2],fl[1],fl[0]);
+            //System.out.printf("%d,%d,%d,%d,%d,%d\n", a[5],a[4],a[3],a[2],a[1],a[0]);
+            for (int i = 0; i < weight.length ; i++) {
+                    if (weight[i] % 2 == 1) {
+                            weight[i] += 1;
+                            System.out.printf("%d, \n", i);
+
+                    }
+            }
+
+
+
+
+                    
+            }
 
 
     }
-}
+
 
 
 
