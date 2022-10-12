@@ -26,17 +26,29 @@ public class Main {
         // }
 
        // public static void task2() {
+           // int[] weight = new int[3];
+           // weight[0] = 1;
+           // weight[1] = 2;
+           // weight[2] = 3;
+           // float[] fl = new float[]{1.57f, 7.654f, 9.986f};
+           // int[] a = new int[]{1, 2, 3, 4, 5, 6};
+           // System.out.printf("%d,%d,%d\n", weight[0],weight[1],weight[2]);
+           // System.out.printf("%f,%f,%f\n", fl[0],fl[1],fl[2]);
+           // System.out.printf("%d,%d,%d\n", a[0],a[1],a[2],a[3],a[4],a[5]);
+
+           // public static void task3() {
             int[] weight = new int[3];
             weight[0] = 1;
             weight[1] = 2;
             weight[2] = 3;
             float[] fl = new float[]{1.57f, 7.654f, 9.986f};
             int[] a = new int[]{1, 2, 3, 4, 5, 6};
-            System.out.printf("%d,%d,%d\n", weight[0],weight[1],weight[2]);
-            System.out.printf("%f,%f,%f\n", fl[0],fl[1],fl[2]);
-            System.out.printf("%d,%d,%d\n", a[0],a[1],a[2],a[3],a[4],a[5]);
+            System.out.printf("%d,%d,%d\n", weight[2],weight[1],weight[0]);
+            System.out.printf("%f,%f,%f\n", fl[2],fl[1],fl[0]);
+            System.out.printf("%d,%d,%d,%d,%d,%d\n", a[5],a[4],a[3],a[2],a[1],a[0]);
 
-        }
+
+    }
 }
 
 
